@@ -70,7 +70,6 @@ The API is available at http://localhost:8000. The SQLite database is persisted 
 | `DATABASE_URL`          | `sqlite:///./nmap.db`    | SQLAlchemy database URL                            |
 | `LOG_LEVEL`             | `INFO`                   | Python logging level                               |
 | `MAX_HISTORY`           | `50`                     | Max scans returned per GET /scans/{host}           |
-| `BLOCK_LOCALHOST`       | `true`                   | Always block loopback addresses                    |
 | `BLOCK_PRIVATE_RANGES`  | `false`                  | Block RFC 1918 ranges (set true for public deploy) |
 | `RAW_XML_RETENTION_DAYS`| `30`                     | Days to retain raw XML inline (demo only)          |
 | `DEMO_MODE`             | `true`                   | Use fast flags; false = version detection          |

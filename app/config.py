@@ -11,7 +11,6 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "sqlite:///./nmap.db"
     LOG_LEVEL: str = "INFO"
     MAX_HISTORY: int = 50
-    BLOCK_LOCALHOST: bool = True
     BLOCK_PRIVATE_RANGES: bool = False
     RAW_XML_RETENTION_DAYS: int = 30
     DEMO_MODE: bool = True
