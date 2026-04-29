@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DEMO_MODE=true
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./nmap.db:/app/nmap.db
